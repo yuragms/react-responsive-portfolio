@@ -37,3 +37,13 @@
 .cards > * {
   position: absolute;
 }
+
+/* blur */
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+.s-blur2 {
+  top: 14rem;
+  left: 8rem;
+}

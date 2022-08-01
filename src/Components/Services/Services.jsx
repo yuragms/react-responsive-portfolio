@@ -5,6 +5,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
 import moduleName from "../../";
+import Resume from "./resume.pdf";
 
 const Services = () => {
   return (
@@ -51,6 +52,10 @@ const Services = () => {
             }
           />
         </div>
+        <div
+          className="blur s-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
       </div>
     </div>
   );
