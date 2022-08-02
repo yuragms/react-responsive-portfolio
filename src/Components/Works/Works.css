@@ -15,6 +15,10 @@
   height: 18rem;
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
+  top: 2rem;
+  background: white;
+  /* darkMode */
+  z-index: 2;
 }
 .w-mainCircle > * {
   position: absolute;
