@@ -78,6 +78,7 @@
   padding: 0;
 }
 .blur {
+  position: absolute;
   width: 22rem;
   height: 14rem;
   border-radius: 50%;
