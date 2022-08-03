@@ -14,9 +14,25 @@ const Portfolio = () => {
       <span>Recent Projects</span>
       <span>Portfolio</span>
       {/* slider */}
-      {/* <Swiper>
-        <
-      </Swiper> */}
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="Portfolio-slider"
+      >
+        <SwiperSlide>
+          <img src={Sidebar} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Ecommerce} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={MusicApp} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={HOC} alt="" />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 };
