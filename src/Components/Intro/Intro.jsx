@@ -15,7 +15,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
 const Intro = () => {
-  const transition = { duration: 2, type: "string" };
+  const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -55,6 +55,7 @@ const Intro = () => {
           whileInView={{ left: "68%" }}
           trasition={transition}
           style={{ top: "-4%", left: "68%" }}
+          className="floating-div"
         >
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
         </motion.div>
@@ -63,6 +64,7 @@ const Intro = () => {
           whileInView={{ left: "0rem" }}
           trasition={transition}
           style={{ top: "18rem", left: "0rem" }}
+          className="floating-div"
         >
           <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
         </motion.div>
